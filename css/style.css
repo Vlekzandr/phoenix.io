@@ -393,8 +393,26 @@ li.list_desc h4 a:hover{
 .product_control_buttons a:hover{
 	opacity:0.5;
 }
-.button{
-	text-align: center;
+.button-center a{
+	color:#fff;
+	font-size:0.85em;
+	text-transform:uppercase;
+	font-weight:800;
+	text-decoration:none;
+	justify-content: center;
+	border: none;
+	cursor: pointer;
+	padding:15px 30px;
+	display: inline-block;
+	outline: none;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	background: #000;
+}
+.button-center a:hover{
+	background:#ffffff;
+	color: #000;
 }
 .button a{
 	color:#fff;
@@ -414,30 +432,9 @@ li.list_desc h4 a:hover{
 	background: #000;
 }
 .button a:hover{
-	background:#222;
-}
-.login_button{
-	float:right;
-}
-.login_button a{
-	color:#fff;
-	font-size:0.85em;
-	text-transform:uppercase;
-	font-weight:600;
-	text-decoration:none;
-    border: none;
-	cursor: pointer;
-	padding:8px 15px; 
-	display: inline-block;
-	outline: none;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
-	background: #000;
-	margin:10px 0 0;
-}
-.login_button a:hover{
-	background:#555;
+	background:#fff;
+	color: #000;
+
 }
 .check_button{
 	float:left;
@@ -488,6 +485,7 @@ li.list_desc h4 a:hover{
 	text-transform:uppercase;
 	font-weight:700;
 	text-align:center;
+	align-content: center;
 	margin:2% 0 0 0;
 }
 #flexiselDemo1, #flexiselDemo2, #flexiselDemo3 {
@@ -572,7 +570,15 @@ p.m_2{
 	color: #FFF;
 	font-size: 0.85em;
 	line-height: 2.2em;
+	margin-bottom: 6%;
 }
+p.m_3{
+	color: #FFF;
+	font-size: 0.85em;
+	line-height: 2.2em;
+	margin-left: 10%;
+}
+
 .features{
 	padding:8% 0;
 }
